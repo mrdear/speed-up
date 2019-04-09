@@ -5,13 +5,13 @@
 
 **清单1: 对单独命令使用淘宝源**
 
-```sh
+```bash
 npm install -g angular-cli --registry=https://registry.npm.taobao.org
 ```
 
 **清单2: 配置全局npm下载源**
 
-```sh
+```bash
 # 查看当前源
 npm config get registry
 
@@ -29,14 +29,14 @@ npm config set registry https://registry.npmjs.org/
 
 **清单3: 对单独命令使用淘宝源**
 
-```sh
+```bash
 yarn global add angular-cli --registry=https://registry.npm.taobao.org
 ```
 
 
 **清单4: 配置全局npm下载源**
 
-```sh
+```bash
 # 查看当前源
 yarn config get registry
 

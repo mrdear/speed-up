@@ -4,7 +4,7 @@ brew自身是以git项目形式存放在本地，自身更新是通过git pull�
 
 **清单1：修改brew仓库的remote地址为国内镜像仓库**
 
-```sh
+```bash
 #!/usr/bin/env bash
 # brew替换为清华大学源脚本
 # 替换brew.git:
@@ -19,7 +19,7 @@ git remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/home
 
 **清单2: 修改brew的下载源为国内镜像**
 
-```sh
+```bash
 # 替换homebrew-bottles:
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export HOMEBREW_NO_AUTO_UPDATE=true
@@ -29,7 +29,7 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 
 **清单3: 生效，测试**
 
-```sh
+```bash
 # 配置生效
 source ~/.bash_profile
 
