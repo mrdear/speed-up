@@ -2,3 +2,4 @@
 * [brew加速指南](/brew)
 * [maven & gradle加速指南](/maven)
 * [Jetbrain产品下载加速](/jetbrain)
+* [Github资源加速](/github)
